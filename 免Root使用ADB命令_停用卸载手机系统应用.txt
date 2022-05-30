@@ -1,0 +1,11 @@
+免Root使用ADB命令_停用/卸载手机系统应用
+adb shell pm list packages　#列出本机上的应用
+adb shell pm list packages -s　#只输出系统的包
+adb shell pm list packages >App.txt
+adb shell pm disable-user com.android.email
+adb shell pm disable-user --user 0 com.android.email　#停用邮件
+adb shell pm uninstall -k --user 0 com.heytap.browser　#卸载浏览器
+adb shell "(pm list packages -u && pm list packages) | sort | uniq -u | cut -c 9-"　#列出已经卸载的系统应用
+adb shell cmd package install-existing <package.name.of.the.app>　#重装某个已经卸载的系统应用
+adb shell "pm list packages -d | cut -c 9-"　#列出已经禁用的系统应用
+adb shell pm enable --user 0 <package.name.of.the.app>　#重新启用某个系统应用
