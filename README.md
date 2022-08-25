@@ -1,3 +1,4 @@
+利用漏洞获取临时root权限，再永久root
 # KitKat
 adb push path/to/mtk-su /data/local/tmp/
 adb shell
