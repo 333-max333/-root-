@@ -1,3 +1,4 @@
+下载EXPLOIT_ADB.zip
 推送所有文件到/data/local/tmp/
 adb shell
 chmod 755 /data/local/tmp/exploit.sh
