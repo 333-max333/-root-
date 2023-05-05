@@ -1,0 +1,8 @@
+推送所有文件到/data/local/tmp/
+adb shell
+chmod 755 /data/local/tmp/exploit.sh
+cd /data/local/tmp/
+./exploit.sh
+#Type run-as -s1 to get a shell"
+#Type run-as -s2 to execute su daemon"
+mount -o remount,abort /system
