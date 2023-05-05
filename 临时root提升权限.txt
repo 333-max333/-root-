@@ -1,4 +1,4 @@
-adb push path/to/mtk-su /data/local/tmp/
+adb push mtk-su /data/local/tmp/
 adb shell
 cd /data/local/tmp
 chmod 755 mtk-su
