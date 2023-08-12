@@ -1,5 +1,7 @@
 利用漏洞获取临时root权限，再永久root
+
 仅限于低版本安卓
+
 mtk easy su v2.1.1对应的magisk版本为8.0.7
 # KitKat
 adb push path/to/mtk-su /data/local/tmp/
