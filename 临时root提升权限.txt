@@ -7,4 +7,6 @@ mount -o rw,remount /system
 cp /data/local/tmp/mtk-su /system/bin/su
 dd if=/dev/block/bootdevice/by-name/boot of=/sdcard/boot.img
 dd if=/dev/block/bootdevice/by-name/recovery of=/sdcard/recovery.img
+dd if=/dev/block/platform/mtk-msdc.0/by-name/recovery of=/sdcard/recovery.img
+dd if=/tmp/recovery.img of=/dev/block/mmcblk0p17
 ls -l #列出长目录
