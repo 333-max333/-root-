@@ -4,7 +4,7 @@
 
 mtk easy su v2.1.1对应的magisk版本为8.0.7
 # KitKat
-adb push path/to/mtk-su /data/local/tmp/
+adb push mtk-su /data/local/tmp/
 adb shell
 cd /data/local/tmp
 chmod 755 mtk-su
