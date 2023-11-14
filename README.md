@@ -2,7 +2,7 @@
 
 仅限于低版本安卓
 
-mtk easy su v2.1.1对应的magisk版本为8.0.7
+mtk easy su对应的magisk版本为8.0.7
 # KitKat
 adb push mtk-su /data/local/tmp/
 adb shell
